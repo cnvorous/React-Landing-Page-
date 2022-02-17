@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 //create your first component
 export const Footer = (props) => {
 	return (
-		<div className="footer-container">
+		<div className="footer-container text-white bg-dark">
 			<span>{props.title}</span>
 		</div>
 	);
